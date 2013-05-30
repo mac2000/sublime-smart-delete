@@ -1,3 +1,4 @@
 [
-	{ "keys": ["delete"], "command": "smart_delete" }
+	{ "keys": ["delete"], "command": "smart_delete" },
+	{ "keys": ["backspace"], "command": "smart_backspace" }
 ]
