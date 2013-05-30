@@ -3,7 +3,7 @@ Sublime Text 2 Smart Delete Plugin
 
 Plugin for Sublime Text 2 to smart delete all spaces after carret.
 
-![screenshot](//github.com/mac2000/sublime-smart-delete/raw/master/sublime-smart-delete.gif)
+![screenshot](/mac2000/sublime-smart-delete/raw/master/sublime-smart-delete.gif)
 
 This plugin gives you `smart_delete` command for [Sublime Text 2][sublime]. With it you can "join" (delete all space symbols) between two lines (current and next) by pressing just one key.
 
