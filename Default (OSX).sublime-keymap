@@ -1,0 +1,3 @@
+[
+	{ "keys": ["delete"], "command": "smart_delete" }
+]
