@@ -7,13 +7,9 @@ Plugin for Sublime Text 2 to smart delete all spaces before or after carret.
 
 ![delete](http://github.com/mac2000/sublime-smart-delete/raw/master/sublime-smart-delete.gif)
 
-<kbd>Backspace</kbd> at beginning of line
+This plugin gives you `smart_delete` command for [Sublime Text 2][sublime]. With it you can "join" (delete all space symbols) between two lines by pressing just one key.
 
-![backspace](http://github.com/mac2000/sublime-smart-delete/raw/master/sublime-smart-backspace.gif)
-
-This plugin gives you `smart_delete` and `smart_backspace` commands for [Sublime Text 2][sublime]. With it you can "join" (delete all space symbols) between two lines by pressing just one key.
-
-Default keyboard shortcut: <kbd>Delete</kbd>, <kbd>Backspace</kbd>
+Default keyboard shortcut: <kbd>Delete</kbd>
 
 Installation
 ------------
