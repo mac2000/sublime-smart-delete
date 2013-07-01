@@ -29,6 +29,7 @@ class SmartDeleteCommand(sublime_plugin.TextCommand):
                         self.view.run_command('right_delete')
 
         for s in self.view.sel():
-            edit = self.view.begin_edit()
-            self.view.erase(edit, s)
-            self.view.end_edit(edit)
+            self.view.run_command('right_delete')
+            #edit = self.view.begin_edit()
+            #self.view.erase(edit, s)
+            #self.view.end_edit(edit)
