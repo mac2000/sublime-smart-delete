@@ -11,6 +11,8 @@ This plugin gives you `smart_delete` command for [Sublime Text 2][sublime]. With
 
 Default keyboard shortcut: <kbd>Delete</kbd>
 
+OS support: Windows, OS X, Linux
+
 Installation
 ------------
 
@@ -27,6 +29,11 @@ If you haven't got Package Control installed you will need to make a clone of th
 If you find error feel free to create issue on this repository.
 
 Inspired by [reSharper][resharper] plugin for Visual Studio.
+
+Contributors
+------------
+
+[Jay Gillibrand](https://github.com/gillibrand)
 
 
 [sublime]: http://www.sublimetext.com/
