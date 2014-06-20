@@ -21,9 +21,15 @@ class SmartDeleteCommand(sublime_plugin.TextCommand):
                 if(len(line) > 0 and next_line_is_not_empty and (after.isspace() or line.end() == s.end())):
                     b = s.begin()
                     e = s.end()
+                    spaces_before = 0
 
                     while(self.view.substr(b - 1).isspace()):
+                        spaces_before = spaces_before + 1
                         b = b - 1
+
+                    # If there is only one space before - leave it
+                    if(spaces_before == 1):
+                      b = b + 1
 
                     while(self.view.substr(e).isspace()):
                         e = e + 1
@@ -34,6 +40,4 @@ class SmartDeleteCommand(sublime_plugin.TextCommand):
                     self.view.run_command('right_delete')
 
         for s in self.view.sel():
-            #edit = self.view.begin_edit()
             self.view.erase(edit, s)
-            #self.view.end_edit(edit)
