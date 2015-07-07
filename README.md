@@ -13,6 +13,8 @@ Default keyboard shortcut: <kbd>Delete</kbd>
 
 OS support: Windows, OS X, Linux
 
+*Notice*: If you are on OS X, please take a note that to execute delete operation you should press <kbd>Fn</kbd> + <kbd>Delete</kbd>
+
 Installation
 ------------
 
